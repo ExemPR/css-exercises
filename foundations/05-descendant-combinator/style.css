@@ -1,0 +1,8 @@
+/* Styles for styled text */
+.container {
+   font-weight: bold;
+   color: rgb(255, 0, 0);
+   background-color: yellow;
+   font-size: 20px;
+   text-align: center;
+}
