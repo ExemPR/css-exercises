@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Methods for Adding CSS</title>
-  </head>
-  <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Exercise</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Internal CSS */
+    p {
+      background-color: green;
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Inline CSS for button -->
+  <button style="background-color: orange; font-size: 18px;">Click me</button>
+  
+  <!-- Content within a div -->
+  <div>
+    <p>This is a paragraph inside a div.</p>
+    <button>Another button</button>
+  </div>
+</body>
 </html>
