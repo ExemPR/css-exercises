@@ -1,0 +1,39 @@
+/* Selecting elements by tag name */
+button {
+    /* Styles applying to all buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Selecting the first button */
+  button:first-of-type {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  /* Selecting the second button */
+  body > button:nth-of-type(2) {
+    background-color: yellow;
+    color: black;
+    margin-left: 10px; /* Providing some spacing between buttons */
+  }
+  
+  /* Selecting buttons based on their content */
+  button:contains("Click Me!") {
+    font-weight: bold;
+  }
+  
+  /* Selecting both buttons */
+button {
+    font-size: 28px; /* Font size of 28px */
+    font-family: Helvetica, "Times New Roman", sans-serif; /* Font family list */
+    /* Other shared styles */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for individual buttons can be added here */
+  
